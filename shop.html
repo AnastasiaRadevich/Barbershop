@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop</title>
+    <link rel="stylesheet" type="text/css" href="css/style-4.css">
+    <script src="https://kit.fontawesome.com/8136a85872.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="wrap">
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html">
+                            <img src="images/logo-2.png" alt="Главная">
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html">ИНФОРМАЦИЯ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">НОВОСТИ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="price.html">ПРАЙС-ЛИСТ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="shop.html">МАГАЗИН
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">КОНТАКТЫ
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <div class="register">
+                <i class="fas fa-sign-in-alt"></i>
+                <a class="register__link" href="#window">ВОЙТИ</a>
+            </div>
+
+            <div class="window" id="window">
+
+                <form class="window__form" action="#">
+
+                    <h2 class="window__title">ЛИЧНЫЙ КАБИНЕТ</h2>
+                    <label for="login psw" class="window__label text-black">ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И
+                        ПАРОЛЬ</label>
+                    <input class="login" type="text" placeholder="ЛОГИН" name="login">
+                    <input class="psw" type="password" placeholder="ПАРОЛЬ" name="psw">
+
+                    <div class="remember">
+                        <label class="remember__label text-black" for="checkbox-remember">
+                            <input id="checkbox-remember" class="checkbox-remember text-black" type="checkbox"
+                                checked="checked">
+                            <span class="cross"></span>
+                            <span class="window__text text-black">ЗАПОМНИТЕ МЕНЯ</span>
+                        </label>
+
+                        <a class="window__a text-black" href="#">Я ЗАБЫЛ ПАРОЛЬ</a>
+
+
+                    </div>
+
+                    <button class="window__btn current-btn" type="submit">ВOЙТИ</button>
+                    <a href="#ModalWindowClose" class="close">
+                        <img src="images/cross-close.png" alt="Закрыть">
+                    </a>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+
+            <h2 class="main__title">Средства для ухода</h2>
+
+            <ul class="main__list">
+                <li class="main__items">
+                    <a href="index.html">ГЛАВНАЯ</a>
+                </li>
+
+                <img class="main-icon" src="images/black-icon.jpg" alt="">
+
+                <li class="main__items">
+                    <a href="#">МАГАЗИН</a>
+                </li>
+
+                <img class="main-icon" src="images/black-icon.jpg" alt="">
+
+                <li class="main__items">
+                    <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+                </li>
+
+            </ul>
+
+            <div class="box">
+
+                <aside class="sidebar">
+
+                    <form class="refine-block category">
+                        <h2 class="sidebar__title">ПРОИЗВОДИТЕЛИ:</h2>
+
+                        <div class="sidebar__box">
+
+                            <label class="contactChoice">
+                                <input class="checkbox-remember" type="checkbox" checked="checked">
+                                <span class="cross"></span><span class="contactChoise__text currentChoice"> Baxter of
+                                    California</span></label>
+
+                            <label class="contactChoice">
+                                <input class="checkbox-remember" type="checkbox">
+                                <span class="cross"></span><span class="contactChoise__text currentChoice">Mr Natty</span></label>
+
+                            <label class="contactChoice">
+                                <input class="checkbox-remember" type="checkbox" checked="checked">
+                                <span class="cross"></span><span class="contactChoise__text currentChoice">Suavecito</span></label>
+
+                            <label class="contactChoice">
+                                <input class="checkbox-remember" type="checkbox">
+                                <span class="cross"></span><span class="contactChoise__text currentChoice">Malin+Goetz</span></label>
+
+                            <label class="contactChoice">
+                                <input class="checkbox-remember" type="checkbox">
+                                <span class="cross"></span><span class="contactChoise__text currentChoice">Murray’s</span></label>
+
+                            <label class="contactChoice">
+                                <input class="checkbox-remember" type="checkbox" checked="checked">
+                                <span class="cross"></span><span class="contactChoise__text currentChoice">American
+                                    Crew</span></label>
+                        </div>
+                    </form>
+
+
+                    <form class="refine-block brand">
+                        <h2 class="sidebar__title">ГРУППЫ ТОВАРОВ:</h2>
+
+                        <div class="sidebar__box">
+
+                            <label class="contactChoice" for="contactChoice1">
+                                <input class="sidebar__radio" type="radio" name="contactChoice"
+                                    id="contactChoice1"><span class="radio"></span><span
+                                    class="contactChoise__text currentChoice">Бритвенные принадлежности</span>
+                            </label>
+
+                            <label class="contactChoice" for="contactChoice2">
+                                <input class="sidebar__radio" type="radio" name="contactChoice" id="contactChoice2"
+                                    checked="checked">
+                                <span class="radio"></span><span class="contactChoise__text currentChoice">Средства для ухода</span>
+                            </label>
+
+                            <label class="contactChoice" for="contactChoice3">
+                                <input class="sidebar__radio" type="radio" name="contactChoice" id="contactChoice3">
+                                <span class="radio"></span><span class="contactChoise__text currentChoice">Аксессуары</span>
+                            </label>
+
+                        </div>
+                    </form>
+                    <button class="sidebar__btn current-btn">ПОКАЗАТЬ</button>
+
+                </aside>
+
+                <div class="product-container">
+
+                    <ul class="list-items">
+
+                        <li class="list-item">
+                            <div class="list-item__product">
+                                <img src="images/product-1.jpg" alt="product">
+                                <h3 class="list-item__title">Набор для путешествий</h3>
+                                <span>«Baxter of California»</span>
+                                <div class="info-btn">
+                                    <p class="info-btn__text">2 900 &#8381;</p>
+                                    <a class="info-btn__btn current-btn" href="item.html">КУПИТЬ</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-item">
+                            <div class="list-item__product">
+                                <img src="images/product-2.jpg" alt="product">
+                                <h3 class="list-item__title">Увлажняющий кондиционер</h3>
+                                <span>«Baxter of California»</span>
+                                <div class="info-btn">
+                                    <p class="info-btn__text">750 &#8381;</p>
+                                    <a class="info-btn__btn current-btn" href="item.html">КУПИТЬ</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-item">
+                            <div class="list-item__product">
+                                <img src="images/product-3.jpg" alt="product">
+                                <h3 class="list-item__title">Гель для волос</h3>
+                                <span>«SUAVECITO»</span>
+                                <div class="info-btn">
+                                    <p class="info-btn__text">290 &#8381;</p>
+                                    <a class="info-btn__btn current-btn" href="item.html">КУПИТЬ</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-item">
+                            <div class="list-item__product">
+                                <img src="images/product-4.jpg" alt="product">
+                                <h3 class="list-item__title">Глина для укладки волос<span></h3>
+                                <span>«American crew»</span>
+                                <div class="info-btn">
+                                    <p class="info-btn__text">500 &#8381;</p>
+                                    <a class="info-btn__btn current-btn" href="item.html">КУПИТЬ</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-item">
+                            <div class="list-item__product">
+                                <img src="images/product-5.jpg" alt="product">
+                                <h3 class="list-item__title">Гель для волос</h3>
+                                <span> «AMERICAN CREW»</span>
+                                <div class="info-btn">
+                                    <p class="info-btn__text">300 &#8381;</p>
+                                    <a class="info-btn__btn current-btn" href="item.html">КУПИТЬ</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-item">
+                            <div class="list-item__product">
+                                <img src="images/product-6.jpg" alt="product">
+                                <h3 class="list-item__title">Набор для бритья</h3>
+                                <span> «Baxter of California»</span>
+                                <div class="info-btn">
+                                    <p class="info-btn__text">3 900 &#8381;</p>
+                                    <a class="info-btn__btn current-btn" href="item.html">КУПИТЬ</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="pages">
+                <div class="page">
+                    <a class="current-btn" href="#">1</a>
+                </div>
+                <div class="page">
+                    <a class="currentPage current-btn" href="#">2</a>
+                </div>
+                <div class="page">
+                    <a class="current-btn" href="#">3</a>
+                </div>
+                <div class="page">
+                    <a class="current-btn" href="#">4</a>
+                </div>
+            </div>
+
+            <div id="map">
+
+                <iframe class="map__image"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d999.2995275288885!2d30.3224326!3d59.938795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sby!4v1588700817545!5m2!1sru!2sby">
+                </iframe>
+                    
+                <a href="#MapWindowClose" class="close">
+                    <img src="images/cross-close.png" alt="Закрыть">
+                </a>
+    
+            </div>
+            
+        </main>
+
+        <footer class="footer">
+
+            <div class="container">
+    
+                <div class="box-text1">
+                    <p class="box-text1__text">БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+                    <p class="box-text1__text">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                    <a href="#map">КАК НАС НАЙТИ?</a>
+                    <p class="box-text1__text">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+                </div>
+    
+                <div class="box-text2">
+                    <p class="box-text2__text">ДАВАЙТЕ ДРУЖИТЬ!</p>
+    
+                    <div class="icon">
+                        <a class="networks-icon" href="#">
+                            <i class="fab fa-vk fa-lg"></i>
+                        </a>
+                        <a class="networks-icon" href="#">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </a>
+                        <a class="networks-icon" href="#">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                    </div>
+    
+                </div>
+    
+                <div class="box-text3">
+                    <p class="box-text3__text">РАЗРАБОТАНО:</p>
+                    <a href="#" class="box-text3__link">HTML ACADEMY></a>
+                </div>
+    
+            </div>
+            
+        </footer>
+
+</body>
+
+</html>

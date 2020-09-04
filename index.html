@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8136a85872.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="wrap">
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html">ИНФОРМАЦИЯ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">НОВОСТИ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="price.html">ПРАЙС-ЛИСТ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="shop.html">МАГАЗИН
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">КОНТАКТЫ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="register">
+                <i class="fas fa-sign-in-alt"></i>
+                <a class="register__link" href="#window">ВОЙТИ</a>
+            </div>
+
+            <div class="window" id="window">
+
+                <form class="window__form" action="#">
+                    <h2 class="window__title">ЛИЧНЫЙ КАБИНЕТ</h2>
+                    <label for="login psw" class="window__label text-black">ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И
+                        ПАРОЛЬ</label>
+                    <input class="login" type="text" placeholder="ЛОГИН" name="login">
+                    <input class="psw" type="password" placeholder="ПАРОЛЬ" name="psw">
+
+                    <div class="remember">
+
+                        <label class="remember__label text-black" for="checkbox-remember">
+                            <input id="checkbox-remember" class="checkbox-remember text-black" type="checkbox"
+                                checked="checked">
+                            <span class="cross"></span>
+                            <span class="window__text text-black">ЗАПОМНИТЕ МЕНЯ</span>
+                        </label>
+
+                        <a class="window__a text-black" href="#">Я ЗАБЫЛ ПАРОЛЬ</a>
+
+                    </div>
+
+                    <button class="window__btn" type="submit">ВOЙТИ</button>
+                    <a href="#ModalWindowClose" class="close">
+                        <img src="images/cross-close.png" alt="Закрыть">
+                    </a>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+
+            <section class="logo">
+                <img src="images/logo.png" alt="logo">
+            </section>
+
+            <section class="skills">
+
+                <div class="box-skills">
+                    <h2 class="box-skills__title">БЫСТРО</h2>
+                    <img class="box-skills__img" src="images/icon.png" alt="icon">
+                    <p class="box-skills__text">
+                        МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО!
+                        ДВА ЧАСА<br> ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ<br>
+                        ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+                </div>
+
+                <div class="box-skills">
+                    <h2 class="box-skills__title">КРУТО</h2>
+                    <img class="box-skills__img" src="images/icon.png" alt="icon">
+                    <p class="box-skills__text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>
+                        МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>
+                        ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+                </div>
+
+                <div class="box-skills">
+                    <h2 class="box-skills__title">ДОРОГО</h2>
+                    <img class="box-skills__img" src="icon.png" alt="icon">
+                    <p class="box-skills__text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И <br>
+                        НЕ МОГУТ СТОИТЬ ДЕШЕВО. К
+                        ТОМУ ЖЕ, РАЗВЕ ЦЕНА<br> НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС</p>
+                </div>
+
+            </section>
+
+            <section class="box-news">
+
+                <div class="news">
+                    <h2 class="news__title text-black">НОВОСТИ</h2>
+                    <p class="news__text text-black">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ
+                        СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                    <small class="news__date text-black">11 января</small>
+                    <p class="news__text text-black">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ
+                        МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                    <small class="news__date text-black">18 января</small>
+                    <button class="news__btn current-btn" type="submit">ВСЕ НОВОСТИ</button>
+
+                </div>
+
+                <div class="gallery">
+                    <h2 class="gallery__title text-black">ФОТОГАЛЕРЕЯ</h2>
+                    <img class="gallery__img" src="images/gallery.jpg" alt="gallery">
+                    <div class="gallery__btn">
+                        <button class="btn current-btn" type="submit">НАЗАД</button>
+                        <button class="btn current-btn" type="submit">ВПЕРЕД</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="box-contacts">
+
+                <div class="contacts">
+                    <h2 class="contacts__title text-black">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+
+                    <div class="box__text">
+                        <p class="contacts__text text-black">БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+                        <p class="contacts__text text-black">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                        <p class="contacts__text text-black">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+                    </div>
+
+                    <div class="box__text">
+                        <p class="contacts__text text-black">ВРЕМЯ РАБОТЫ</p>
+                        <p class="contacts__text text-black">ПН-ПТ: С 10:00 ДО 22:00</p>
+                        <p class="contacts__text text-black">СБ-ВС: С 10:00 ДО 19:00</p>
+                    </div>
+
+                    <div class="contacts__btn">
+                        <button class="btn current-btn" type="submit">КАК ПРОЕХАТЬ</button>
+                        <button class="btn current-btn" type="submit">ОБРАТНАЯ СВЯЗЬ</button>
+                    </div>
+
+                </div>
+
+                <div class="reservation">
+                    <h2 class="reservation__title text-black">ЗАПИСАТЬСЯ</h2>
+
+                    <div class="box-text">
+                        <p class="reservation__text text-black">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ</p>
+                        <p class="reservation__text text-black">С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+                    </div>
+
+                    <form class="form" action="#">
+
+                        <label class="form-label text-black">ДАТА</label>
+                        <input class="date" type="date" placeholder="08.10.2017">
+                        <label class="form-label text-black" for="text">ВАШЕ ИМЯ</label>
+                        <input class="text" type="text" placeholder="Борода">
+                        <label class="form-label text-black" for="date">ВРЕМЯ</label>
+                        <input class="text" type="text" placeholder="10:00">
+                        <label class="form-label text-black" for="tel">ТЕЛЕФОН</label>
+                        <input class="tel" type="tel" placeholder="+7 123 456-78-90">
+
+                    </form>
+                    <button class="btn current-btn" type="submit">ОТПРАВИТЬ</button>
+
+                </div>
+
+            </section>
+        </div>
+
+        <div id="map">
+
+            <iframe class="map__image"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d999.2995275288885!2d30.3224326!3d59.938795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sby!4v1588700817545!5m2!1sru!2sby">
+            </iframe>
+
+            <a href="#MapWindowClose" class="close">
+                <img src="images/cross-close.png" alt="Закрыть">
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="box-text1">
+                <p class="box-text1__text">БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+                <p class="box-text1__text">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                <a href="#map">КАК НАС НАЙТИ?</a>
+                <p class="box-text1__text">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            </div>
+
+            <div class="box-text2">
+                <p class="box-text2__text">ДАВАЙТЕ ДРУЖИТЬ!</p>
+
+                <div class="icon">
+                    <a class="networks-icon" href="#">
+                        <i class="fab fa-vk fa-lg"></i>
+                    </a>
+                    <a class="networks-icon" href="#">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a class="networks-icon" href="#">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="box-text3">
+                <p class="box-text3__text">РАЗРАБОТАНО:</p>
+                <a href="#" class="box-text3__link">HTML ACADEMY></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

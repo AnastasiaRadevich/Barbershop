@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Price</title>
+    <link rel="stylesheet" type="text/css" href="css/style-3.css">
+    <script src="https://kit.fontawesome.com/8136a85872.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="wrap">
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html">
+                            <img src="images/logo-2.png" alt="Главная">
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html">ИНФОРМАЦИЯ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">НОВОСТИ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="price.html">ПРАЙС-ЛИСТ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="shop.html">МАГАЗИН
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">КОНТАКТЫ
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <div class="register">
+                <i class="fas fa-sign-in-alt"></i>
+                <a class="register__link" href="#window">ВОЙТИ</a>
+
+            </div>
+
+            <div class="window" id="window">
+
+                <form class="window__form" action="#">
+
+                    <h2 class="window__title">ЛИЧНЫЙ КАБИНЕТ</h2>
+                    <label for="login psw" class="window__label text-black">ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И
+                        ПАРОЛЬ</label>
+                    <input class="login" type="text" placeholder="ЛОГИН" name="login">
+                    <input class="psw" type="password" placeholder="ПАРОЛЬ" name="psw">
+
+                    <div class="remember">
+                        <label class="remember__label text-black" for="checkbox-remember">
+                            <input id="checkbox-remember" class="checkbox-remember text-black" type="checkbox"
+                                checked="checked">
+                            <span class="cross"></span>
+                            <span class="window__text text-black">ЗАПОМНИТЕ МЕНЯ</span>
+                        </label>
+
+                        <a class="window__a text-black" href="#">Я ЗАБЫЛ ПАРОЛЬ</a>
+
+                    </div>
+
+                    <button class="window__btn" type="submit">ВOЙТИ</button>
+                    <a href="#ModalWindowClose" class="close">
+                        <img src="images/cross-close.png" alt="Закрыть">
+                    </a>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+
+            <h2 class="main__title">ПРАЙС-ЛИСТ</h2>
+
+            <ul class="main__list">
+                <li class="main__items">
+                    <a href="index.html">ГЛАВНАЯ</a>
+                </li>
+
+                <img class="main-icon" src="images/black-icon.jpg" alt="">
+
+                <li class="main__items">
+                    <a class="current-page" href="price.html">ПРАЙС-ЛИСТ</a>
+                </li>
+            </ul>
+
+            <div class="box">
+
+                <h1 class="box__title">ИСТИННО МУЖСКАЯ КЛАССИКА</h1>
+
+                <div class="box-price">
+
+                    <div class="box-price__text">
+
+                        <h2 class="box-price__title-1">МЫ ИСПОЛЬЗУЕМ ТОЛЬКО ЛУЧШИЕ СРЕДСТВА:</h2>
+
+                        <ul class="box-price__list">
+                            <li class="box-price__items">BAXTER OF CALIFORNIA</li>
+                            <li class="box-price__items">MR NATTY</li>
+                            <li class="box-price__items">SUAVECITO</li>
+                            <li class="box-price__items">MALIN+GOETZ</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="box-price__text">
+
+                        <h2 class="box-price__title-2">ЦЕНЫ НА УСЛУГИ НАШИХ МАСТЕРОВ:</h2>
+
+                        <table class="box-price__table">
+
+                            <tr class="table-row">
+                                <td class="table-row__cell-1">СТРИЖКА</td>
+                                <td class="table-row__cell-2">1500 &#8381;</td>
+                            </tr>
+                            <tr class="table-row">
+                                <td class="table-row__cell-1">СТРИЖКА БОРОДЫ</td>
+                                <td class="table-row__cell-2">500 &#8381;</td>
+                            </tr>
+                            <tr class="table-row">
+                                <td class="table-row__cell-1">НАКРУТКА УСОВ</td>
+                                <td class="table-row__cell-2">350 &#8381;</td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+                <div class="box-about">
+                    <h2 class="box-about__title">НЕСКОЛЬКО СЛОВ О НАС:</h2>
+                    <div class="box-about__text">
+
+                        <p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для
+                            нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы
+                            делаем качество.
+                        </p>
+
+                        <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое
+                            время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу,
+                            чувствовать себя комфортно и свободно!
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="map">
+
+            <iframe class="map__image"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d999.2995275288885!2d30.3224326!3d59.938795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sby!4v1588700817545!5m2!1sru!2sby">
+            </iframe>
+                
+            <a href="#MapWindowClose" class="close">
+                <img src="images/cross-close.png" alt="Закрыть">
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="box-text1">
+                <p class="box-text1__text">БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+                <p class="box-text1__text">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                <a href="#map">КАК НАС НАЙТИ?</a>
+                <p class="box-text1__text">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            </div>
+
+            <div class="box-text2">
+                <p class="box-text2__text">ДАВАЙТЕ ДРУЖИТЬ!</p>
+
+                <div class="icon">
+                    <a class="networks-icon" href="#">
+                        <i class="fab fa-vk fa-lg"></i>
+                    </a>
+                    <a class="networks-icon" href="#">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a class="networks-icon" href="#">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="box-text3">
+                <p class="box-text3__text">РАЗРАБОТАНО:</p>
+                <a href="#" class="box-text3__link">HTML ACADEMY></a>
+            </div>
+
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
